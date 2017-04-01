@@ -1,0 +1,17 @@
+# Setup
+title:        李志杰
+tagline:      工作学习笔记
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       李志杰
+  url:        http://lizj.me 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
