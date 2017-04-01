@@ -1,0 +1,15 @@
+version: '2'
+services:
+  pages:
+    image: githubpages
+    build: .
+    command: jekyll s --watch --incremental
+    volumes:
+      - ./:/srv/jekyll
+    working_dir: /srv/jekyll
+  #  restart: alwayst
+#    restart: always
+    ports:
+     - 4000:4000
+    environment:
+      - DEBUG_PYSOLR = "0"
