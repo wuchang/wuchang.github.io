@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "windwos配置gitpage环境"
+title:  "windows配置gitpage环境"
 date:   2017-03-31 12:50:00
 categories: main
 ---
