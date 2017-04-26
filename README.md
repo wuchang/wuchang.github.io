@@ -1,1 +1,1 @@
-#  myblog  liz.me
+#  myblog  lizj.me
