@@ -1,1 +1,1 @@
-#  myblor  liz.me
+#  myblog  liz.me
