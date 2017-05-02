@@ -7,10 +7,14 @@ categories: main
 
 # 1. 环境配置
 
-* npm 使用代理
-```
+* npm 全局代理代理
+```bash
 npm config set proxy http://127.0.0.1:1081
 npm config set https-proxy http://127.0.0.1:1081
+```
+* npm 临时代理
+```bash
+npm --proxy http://proxy-server:8080/ install
 ```
 
 ## 1.1 生成模板
