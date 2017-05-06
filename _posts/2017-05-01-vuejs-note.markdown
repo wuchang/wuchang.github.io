@@ -9,8 +9,8 @@ categories: main
 
 * npm 全局代理代理
 ```bash
-npm config set proxy http://127.0.0.1:1081
-npm config set https-proxy http://127.0.0.1:1081
+npm config set proxy http://127.0.0.1:1080
+npm config set https-proxy http://127.0.0.1:1080
 ```
 * npm 临时代理
 ```bash
