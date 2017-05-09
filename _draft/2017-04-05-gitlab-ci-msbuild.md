@@ -28,6 +28,7 @@ Invoke-WebRequest "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" 
 ```
 
 
-*下载gitlab runner并改名为```gitlab-runner.exe```  https://docs.gitlab.com/runner/install/windows.html
+* 下载gitlab runner并改名为```gitlab-runner.exe```  https://docs.gitlab.com/runner/install/windows.html
+* 安装 powershell msbuild 模块 ```Install-Module -Name Invoke-MsBuild```
 
 ## 2. 配置 .gitlab-ci.yml
