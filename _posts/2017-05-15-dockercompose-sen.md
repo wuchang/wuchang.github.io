@@ -29,7 +29,7 @@ services:
     image: redis
 
   postgres:
-    image: postgres
+    image: postgres:alpine
     environment:
       POSTGRES_USER: sentry
       POSTGRES_PASSWORD: sentry
