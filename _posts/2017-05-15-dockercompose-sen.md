@@ -5,7 +5,7 @@ date:   2017-05-15 10:00:00
 categories: docker, sentry
 ---
 
-#Sentry docker-compose.yml
+# Sentry docker-compose.yml
 
 1. 在sentry目录添加 docker-compose.yml 文件，文件内容在最下方
 2. 替换 '!!!SECRET!!!' 为32位随机字符串
