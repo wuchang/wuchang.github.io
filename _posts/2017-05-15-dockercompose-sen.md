@@ -11,7 +11,7 @@ categories: docker, sentry
 2. 替换 '!!!SECRET!!!' 为32位随机字符串
 1. 执行 ```docker-compose up -d```
 1. 执行 ```docker exec -it sentry_sentry_1 sentry upgrade``` ，创建数据库和初始化数据
-1. 如果需要slack插件就执行 ```docker exec -it pip install sentry-slack `` ，否则忽略
+1. 如果需要slack插件就执行 ```docker exec -it pip install sentry-slack ``` ，否则忽略
 1. slack ```docker restart sentry_sentry_1```
 1. 默认映射端口是9000，如有冲突请修改
 
