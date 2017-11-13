@@ -5,7 +5,27 @@ date:   2017-11-13 10:00:00
 categories: main
 ---
 
-# 1. apt使用代理
+# 1 安装scrapy
+
+1. 安装虚拟环境, 
+2. 升级py安装工具  
+```bash
+   pip install --upgrade pip
+   pip install --upgrade setuptools
+```
+3.  安装依赖包
+```bash
+sudo apt-get install python3 python-dev python3-dev \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     python-pip
+```
+4. 安装scrapy
+```bash
+pip install scrapy
+```
+
+# 2 apt使用代理
 
 ## 临时代理
 ```bash
