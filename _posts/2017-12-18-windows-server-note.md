@@ -23,3 +23,11 @@ foreach ($Item in $ItemList) {
     Set-Acl -Path $Item.FullName -AclObject $Acl;  # Set the updated ACL on the target item
 }
 ```
+
+# 杂项
+
+## 1. 映射阿里云NAS NFS挂载点
+
+```bash
+mount -o nolock \\xxx.cn-shenzhen.nas.aliyuncs.com\! x:
+```
