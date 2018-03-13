@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SQL Server查看所有表大小，所占空间"
-date:   2017-12-18 10:00:00
+date:   2018-03-12 10:00:00
 categories: sqlserver
 
 
